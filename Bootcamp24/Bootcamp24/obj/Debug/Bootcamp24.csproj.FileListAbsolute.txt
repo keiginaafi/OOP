@@ -1,0 +1,6 @@
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\bin\Debug\Bootcamp24.exe.config
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\bin\Debug\Bootcamp24.exe
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\bin\Debug\Bootcamp24.pdb
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\obj\Debug\Bootcamp24.csprojResolveAssemblyReference.cache
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\obj\Debug\Bootcamp24.exe
+c:\users\hilmi\documents\visual studio 2015\Projects\Bootcamp24\Bootcamp24\obj\Debug\Bootcamp24.pdb

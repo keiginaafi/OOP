@@ -1,0 +1,6 @@
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\bin\Debug\cobaOOP.exe.config
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\obj\Debug\cobaOOP.csprojResolveAssemblyReference.cache
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\bin\Debug\cobaOOP.exe
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\bin\Debug\cobaOOP.pdb
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\obj\Debug\cobaOOP.exe
+c:\users\hilmi\documents\visual studio 2015\Projects\cobaOOP\cobaOOP\obj\Debug\cobaOOP.pdb
