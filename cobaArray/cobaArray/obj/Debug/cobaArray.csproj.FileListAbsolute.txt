@@ -31,3 +31,4 @@ C:\Users\Hilmi\Documents\Visual Studio 2015\Projects\cobaArray\cobaArray\obj\Deb
 C:\Users\Hilmi\Documents\Visual Studio 2015\Projects\cobaArray\cobaArray\obj\Debug\cobaArray.Migrations.add_foreign_key_supplier_id_to_model_item.resources
 C:\Users\Hilmi\Documents\Visual Studio 2015\Projects\cobaArray\cobaArray\obj\Debug\cobaArray.Migrations.change_model_item_dbset_to_public.resources
 C:\Users\Hilmi\Documents\Visual Studio 2015\Projects\cobaArray\cobaArray\obj\Debug\cobaArray.Migrations.add_isdelete_to_item.resources
+C:\Users\Hilmi\Documents\Visual Studio 2015\Projects\cobaArray\cobaArray\obj\Debug\cobaArray.Migrations.add_virtual_supplier_to_item.resources

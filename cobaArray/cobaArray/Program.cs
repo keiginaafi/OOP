@@ -29,24 +29,24 @@ namespace cobaArray
             //Console.Read();
 
             //menambah data item
-            //Console.Write("Insert item name : ");
-            //Name = Console.ReadLine();
-            //Console.Write("Insert supplier name : ");
-            //SupplierName = Console.ReadLine();
-            //var sup_id = MyCon.Suppliers.SingleOrDefault(x => x.Name.Contains(SupplierName));
-            //items.Name = Name;
-            //items.Supplier_Id = sup_id.Id;
-            //MyCon.Items.Add(items);
-            //var result = MyCon.SaveChanges();
-            //if (result > 0)
-            //{
-            //    Console.Write("Insert Success");
-            //}
-            //else
-            //{
-            //    Console.Write("Insert Failed");
-            //}
-            //Console.Read();
+            Console.Write("Insert item name : ");
+            Name = Console.ReadLine();
+            Console.Write("Insert supplier name : ");
+            SupplierName = Console.ReadLine();
+            var sup_id = MyCon.Suppliers.Single(x => x.Name.Contains(SupplierName));
+            items.Name = Name;
+            items.Suppliers = sup_id;
+            MyCon.Items.Add(items);
+            var result = MyCon.SaveChanges();
+            if (result > 0)
+            {
+                Console.Write("Insert Success");
+            }
+            else
+            {
+                Console.Write("Insert Failed");
+            }
+            Console.Read();
 
             //mengubah data item
             //Console.Write("Insert item Id : ");
@@ -57,7 +57,11 @@ namespace cobaArray
             //{
             //    Console.Write("Insert new name : ");
             //    Name = Console.ReadLine();
+            //    Console.Write("Insert new supplier name : ");
+            //    SupplierName = Console.ReadLine();
+            //    var sup_id = MyCon.Suppliers.SingleOrDefault(x => x.Name.Contains(SupplierName));
             //    get.Name = Name;
+            //    get.Suppliers = sup_id;
             //    MyCon.Entry(get).State = EntityState.Modified;
             //    var result = MyCon.SaveChanges();
             //    if (result > 0)
@@ -76,28 +80,28 @@ namespace cobaArray
             //Console.Read();
 
             //menghapus data item
-            Console.Write("Insert item Id : ");
-            Id = Convert.ToInt16(Console.ReadLine());
-            var get = MyCon.Items.SingleOrDefault(x => x.Id == Id && x.IsDelete == false);
-            if (get != null)
-            {
-                get.IsDelete = true;
-                MyCon.Entry(get).State = EntityState.Modified;
-                var result = MyCon.SaveChanges();
-                if (result > 0)
-                {
-                    Console.Write("Delete Successful");
-                }
-                else
-                {
-                    Console.Write("Delete Failed");
-                }
-            }
-            else
-            {
-                Console.Write("No Data Found or Already Deleted");
-            }
-            Console.Read();
+            //Console.Write("Insert item Id : ");
+            //Id = Convert.ToInt16(Console.ReadLine());
+            //var get = MyCon.Items.SingleOrDefault(x => x.Id == Id);
+            //if (get != null)
+            //{
+            //    //get.IsDelete = true;
+            //    MyCon.Entry(get).State = EntityState.Deleted;
+            //    var result = MyCon.SaveChanges();
+            //    if (result > 0)
+            //    {
+            //        Console.Write("Delete Successful");
+            //    }
+            //    else
+            //    {
+            //        Console.Write("Delete Failed");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.Write("No Data Found or Already Deleted");
+            //}
+            //Console.Read();
 
             //menampilkan data supplier
             //var get = MyCon.Suppliers.ToList().Where(x => x.IsDelete == false);

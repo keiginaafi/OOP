@@ -82,6 +82,10 @@
     <Compile Include="Migrations\201903281614290_add_isdelete_to_item.Designer.cs">
       <DependentUpon>201903281614290_add_isdelete_to_item.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903290139295_add_virtual_supplier_to_item.cs" />
+    <Compile Include="Migrations\201903290139295_add_virtual_supplier_to_item.Designer.cs">
+      <DependentUpon>201903290139295_add_virtual_supplier_to_item.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903281614290_add_isdelete_to_item.resx">
       <DependentUpon>201903281614290_add_isdelete_to_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903290139295_add_virtual_supplier_to_item.resx">
+      <DependentUpon>201903290139295_add_virtual_supplier_to_item.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

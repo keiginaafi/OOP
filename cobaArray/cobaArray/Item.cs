@@ -14,10 +14,7 @@ namespace cobaArray
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsDelete { get; set; }
-
-        [InverseProperty("Id")]
-        [ForeignKey("Suppliers")]
-        public int Supplier_Id { get; set; }
-        public Supplier Suppliers { get; set; }
+        
+        public virtual Supplier Suppliers { get; set; }
     }
 }
